@@ -1,0 +1,5 @@
+str_manip = input("Please enter a sentence:")
+print(len(str_manip))
+print(str_manip.replace(str_manip[-1],"@"))
+print(str_manip[:-4:-1])
+print(str_manip[:3] + str_manip[-2:])
